@@ -1,4 +1,5 @@
 import React from "react";
+import './Styles.scss'
 
 
 const NpmStartWarnFix = () => {
@@ -21,10 +22,12 @@ const NpmStartWarnFix = () => {
 
     return (
         <div>
-            <div>You will probably get a warning like this:</div>
-            <div className="greyBoxRounded">
-                <div>{warningMessageFirst}</div>
-                <div>{warningMessageLast}</div>
+            <h2>You will probably get a warning like this:</h2>
+            <div className="blackBox">
+                <div className="paddTopBottomText {
+ orangeText">{warningMessageFirst}</div>
+                <div className="paddTopBottomText {
+ orangeText">{warningMessageLast}</div>
             </div>
             <div>{fixWarn}</div>
         </div>
@@ -34,7 +37,7 @@ const NpmStartWarnFix = () => {
 export const Setup = () => {
     return (
         <div>
-            <div style={{fontSize: 20, }}>
+            <div className="textSizeLarge">
                 To set up an environment for <em>React</em> and <em>Typescript</em>, 
                 I followed <a href="https://create-react-app.dev/docs/adding-typescript/">this setup</a>.
             </div>

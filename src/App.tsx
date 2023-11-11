@@ -6,11 +6,9 @@ const App = () =>{
   return (
     <div className="App">
       <header >
-        <div style={{fontWeight: 'bold', fontSize: 25, margin: 20}}>Learn-code</div>
+        <h1>Learn-code</h1>
       </header>
-      <body>
-        <Setup/>
-      </body>
+      <Setup/>
     </div>
   );
 }

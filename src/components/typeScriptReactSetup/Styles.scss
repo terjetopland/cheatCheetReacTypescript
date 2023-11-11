@@ -1,0 +1,27 @@
+
+.boxRounded {
+    width: 80%;
+    border: 2px solid rgb(10, 11, 10);
+    border-radius: 20px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.greyBox {
+    @extend .boxRounded;
+    background-color: rgb(189, 178, 178);
+}
+
+.blackBox {
+    @extend .boxRounded;
+    background-color: black;
+}
+
+.paddTopBottomText {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.orangeText {
+    color: rgb(213, 172, 38);
+}
