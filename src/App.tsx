@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Setup } from './components/TypeScriptReactSetup';
+import { Setup } from './components/typeScriptReactSetup/TypeScriptReactSetup';
 
 const App = () =>{
   return (
